@@ -1,0 +1,239 @@
+# Week 4 – E-Commerce Sales Analytics Dashboard
+
+## 📊 Project Overview
+
+This project focuses on building an interactive **E-Commerce Sales Analytics Dashboard using Microsoft Power BI**.
+
+The objective is to convert transactional e-commerce data into actionable business insights by analyzing:
+
+- Sales and Revenue
+- Profitability
+- Orders
+- Product Performance
+- Returns
+- Customer Behaviour
+- Geographic Performance
+
+The project uses a structured data model consisting of fact tables, dimension/lookup tables, and a dedicated measure table containing DAX measures and KPIs.
+
+---
+
+## 🎯 Project Objectives
+
+The main objectives of this project are:
+
+1. Monitor revenue and sales performance.
+2. Track orders and profitability.
+3. Analyze product-level performance.
+4. Monitor product returns and return rates.
+5. Understand customer purchasing behaviour.
+6. Analyze sales performance across territories and countries.
+7. Compare actual product performance against targets.
+8. Build an interactive dashboard for business decision-making.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Microsoft Power BI**
+- **DAX**
+- **Microsoft Excel**
+- Data Modeling
+- Data Visualization
+- KPI Analysis
+- Business Analytics
+
+---
+
+## 🗂️ Data Model
+
+The Power BI model contains two major fact tables and multiple dimension/lookup tables.
+
+### Fact Tables
+
+- Sales Data
+- Returns Data
+
+### Dimension / Lookup Tables
+
+- Customer Lookup
+- Product Lookup
+- Product Categories Lookup
+- Product Subcategories Lookup
+- Calendar Lookup
+- Territory Lookup
+
+### Measure Table
+
+The Measure Table contains the DAX measures and KPIs used in the dashboard.
+
+### Data Flow
+
+Raw Data → Data Model → DAX Measures → Interactive Dashboard → Business Insights
+
+---
+
+## 📁 Project Files
+
+| File | Description |
+|---|---|
+| `Sales data.xlsx` | Sales transaction data |
+| `Return Data.xlsx` | Product return data |
+| `Customer Lookup.xlsx` | Customer information |
+| `Product Lookup.xlsx` | Product information |
+| `Product Categories Lookup.xlsx` | Product category information |
+| `Sub Categories Data.xlsx` | Product subcategory information |
+| `Calendar Lookup.xlsx` | Date/calendar information |
+| `Territory Lookup.xlsx` | Territory and geographic information |
+| `Week-04-Ecommerce-Sales-Analytics.pbix` | Power BI dashboard and data model |
+| `Week-04-Ecommerce-Sales-Analytics-Project.pdf` | Project presentation/report |
+
+---
+
+## 📈 Dashboard KPIs
+
+The dashboard provides the following key performance indicators:
+
+| KPI | Value |
+|---|---:|
+| Revenue | ₹24.9M |
+| Profit | ₹10.5M |
+| Orders | 25.2K |
+| Return Rate | 2.2% |
+| Unique Customers | 17.4K |
+| Revenue per Customer | ₹1.4K |
+
+---
+
+## 📊 Dashboard Analysis
+
+### 1. Executive Sales Performance
+
+The executive dashboard provides an overview of revenue, profit, orders, return rate and monthly revenue trends.
+
+The dashboard also compares order volume across major product categories.
+
+**Key observation:**
+- Accessories generated the highest order volume among the displayed categories, with approximately **17.0K orders**.
+
+---
+
+### 2. Product Performance & Returns
+
+The product performance section analyzes product demand and returns.
+
+**Key observations:**
+
+- Most ordered product type: **Tires and Tubes**
+- Most returned order type: **Shorts**
+
+Product-level analysis helps identify high-volume products and products with relatively higher return rates.
+
+---
+
+### 3. Product-Level Profitability
+
+The dashboard allows users to select individual products and compare their performance against targets.
+
+Example selected product:
+
+**Road Tire Tube**
+
+| Metric | Actual | Target |
+|---|---:|---:|
+| Monthly Orders | 213 | 234 |
+| Monthly Revenue | ₹1,668 | ₹1,804 |
+| Monthly Profit | ₹1,044 | ₹1,129 |
+
+The dashboard also provides an interactive product selection, product metric selection and price adjustment control.
+
+---
+
+### 4. Customer & Geographic Analysis
+
+The dashboard analyzes customer behaviour and geographic performance.
+
+Key metrics include:
+
+- Unique Customers: **17.4K**
+- Revenue per Customer: **₹1.4K**
+
+The dashboard also provides analysis of:
+
+- Orders by income
+- Orders by occupation
+- Customer revenue distribution
+- Customer order behaviour
+- Geographic performance across territories and countries
+
+---
+
+### 5. Returns Analysis
+
+Returns are monitored at overall, product and category/subcategory levels.
+
+**Overall Return Rate:** **2.2%**
+
+**Most Returned Order Type:** **Shorts**
+
+Examples of product/subcategory return rates shown in the dashboard include:
+
+| Product/Subcategory | Return Rate |
+|---|---:|
+| Shorts | 3.8% |
+| T-Shirts | 2.5% |
+| Sneakers | 2.3% |
+| Pants | 2.1% |
+| Bags | 2.0% |
+| Sandals | 1.7% |
+| Hats | 1.5% |
+
+---
+
+## 💡 Business Value
+
+The Power BI dashboard provides decision-support capabilities through:
+
+- Faster performance monitoring
+- Product-level decision support
+- Customer segmentation
+- Return monitoring
+- Geographic analysis
+- Target vs. actual comparison
+- Revenue and profitability monitoring
+
+---
+
+## 🔍 Key Insights
+
+The project demonstrates how transactional e-commerce data can be transformed into an interactive business intelligence dashboard.
+
+The dashboard enables users to monitor:
+
+- **₹24.9M revenue**
+- **₹10.5M profit**
+- **25.2K orders**
+- **2.2% return rate**
+- **17.4K unique customers**
+
+The analysis combines sales, products, customers, returns and geographic information to provide a consolidated view of e-commerce business performance.
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates the use of **Microsoft Power BI, DAX, data modeling and business analytics** to transform transactional e-commerce data into an interactive decision-support dashboard.
+
+The dashboard enables performance monitoring across **sales, profitability, products, customers, returns and geography**, helping users explore business performance through interactive visualizations and KPIs.
+
+---
+
+## 👨‍💻 Project Type
+
+**Internship Live Project – Week 4**
+
+**Domain:** Business Analytics / Data Analytics
+
+**Technology:** Microsoft Power BI
+
+**Focus:** E-Commerce Sales & Business Performance Analytics
